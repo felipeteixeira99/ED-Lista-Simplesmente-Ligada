@@ -5,7 +5,7 @@ public class TestarAdcionarElemento {
 		ListaSimplesmenteLigada lista = new ListaSimplesmenteLigada();
 		lista.estaVazia(); //vai retornar true 
 		System.out.println(lista.estaVazia());
-		lista.adicionar("Primeiro"); // como a minha lista não esta mais vaiza, este agora é o primeiro elemento
+		lista.adicionar("Primeiro"); // como a minha lista não esta mais vazia, este agora é o primeiro elemento
 		System.out.println(lista.estaVazia()); //retornar false 
 		System.out.println(lista.getUltimo()); //retorna o endereco de memoria do ultimo elemento
 		lista.adicionar("Segundo");
